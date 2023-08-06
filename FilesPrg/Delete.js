@@ -1,8 +1,7 @@
 const fs = require("fs");
 
+const niceQuote = "Have a nice Day"
 
-const niceQuote = "\n Have a nice Day"
-
-fs.unlink("./Tobedeleted.txt",niceQuote,(err) => {
-    console.log("Delete files Completed");
+fs.unlink("./Tobedeleted.txt",(err) => {
+    console.log(`Delete files Completed`);
 });
